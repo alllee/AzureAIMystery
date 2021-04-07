@@ -1,4 +1,5 @@
 
+
 # Cluedo
 
 ## Create a Custom Vision Project
@@ -45,3 +46,4 @@ To train an object detection model, you need to upload images that contain the c
 
 ![image](https://user-images.githubusercontent.com/32169182/113878814-dac0b500-97b1-11eb-8c5a-57e41f29369c.png)
 
+6. Select and tag each other object in the image, resizing the regions and adding new tags as required
