@@ -55,3 +55,4 @@ To train an object detection model, you need to upload images that contain the c
 
 8.  When you have finished tagging the last image, close the Image Detail editor and on the Training Images page, under Tags, select Tagged to see all of your tagged images:
 
+## Train and Test a Model
