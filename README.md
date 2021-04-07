@@ -1,3 +1,4 @@
+
 # Cluedo
 
 ## Create a Custom Vision Project
@@ -40,3 +41,4 @@ To train an object detection model, you need to upload images that contain the c
 
 ![image](https://user-images.githubusercontent.com/32169182/113878612-ad740700-97b1-11eb-924d-a4f4c0bddb81.png)
 
+5. Alternatively, you can simply drag around the object to create a region. When the region surrounds the object, add a new tag with the appropriate object type (Lead Pipe, Dagger, Rope, Wrench, Revolver, Candlestick) as shown here: 
