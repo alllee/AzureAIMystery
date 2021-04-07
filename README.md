@@ -37,3 +37,6 @@ To train an object detection model, you need to upload images that contain the c
     
 
 4.  Hold the mouse over any object in the image until an automatically detected region is displayed like the image below. Then select the object, and if necessary resize the region to surround it.
+
+![image](https://user-images.githubusercontent.com/32169182/113878612-ad740700-97b1-11eb-924d-a4f4c0bddb81.png)
+
