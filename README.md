@@ -21,3 +21,5 @@
 
 #### 4. Click Create Project. Wait for the project to be created and opened in the browser.
 
+![image](https://user-images.githubusercontent.com/32169182/113878016-245cd000-97b1-11eb-963b-3cabe1fac02a.png)
+
