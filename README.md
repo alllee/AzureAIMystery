@@ -1,5 +1,6 @@
 
 
+
 # Cluedo
 
 ## Create a Custom Vision Project
@@ -50,5 +51,7 @@ To train an object detection model, you need to upload images that contain the c
 
 ![image](https://user-images.githubusercontent.com/32169182/113878936-f4fa9300-97b1-11eb-9b43-26762514b9aa.png)
 
+7.  Use the > link on the right to go to the next image, and tag its objects. Then just keep working through the entire image collection, tagging each Lead Pipe, Dagger, Rope, Wrench, Revolver, Candlestick.
 
+8.  When you have finished tagging the last image, close the Image Detail editor and on the Training Images page, under Tags, select Tagged to see all of your tagged images:
 
