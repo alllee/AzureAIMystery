@@ -56,3 +56,8 @@ To train an object detection model, you need to upload images that contain the c
 8.  When you have finished tagging the last image, close the Image Detail editor and on the Training Images page, under Tags, select Tagged to see all of your tagged images:
 
 ## Train and Test a Model
+1.  In the Custom Vision project, click Train to train an object detection model using the tagged images. Select the Quick Training option.
+    
+2.  Wait for training to complete (it might take ten minutes or so), and then review the Precision, Recall, and mAP performance metrics - these measure the prediction accuracy of the classification model. Take note of the performance per tag – which weapon has the highest precision?
+
+3.  At the top right of the page, click Quick Test, and then in the Image URL box, enter INSERT FOLDER HERE(Please help me upload this [folder](https://microsoft-my.sharepoint.com/:f:/p/alllee/Epw1Rd8R2K5Plm-2UDLWG6QB_AX3mljbXeu8jfplVIjK6A?e=5bhe0d)) and view the prediction that is generated. Increase the threshold to 90%  and observe the results. What weapons have been identified in which rooms?
