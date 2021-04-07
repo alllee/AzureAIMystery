@@ -23,6 +23,8 @@
 
 ![image](https://user-images.githubusercontent.com/32169182/113878016-245cd000-97b1-11eb-963b-3cabe1fac02a.png)
 
+```
+
 ## Add and Tag Images
 To train an object detection model, you need to upload images that contain the classes you want the model to identify, and tag them to indicate bounding boxes for each object instance.
 1.  Download and extract the training images from INSERT FOLDER HERE. (Please help me upload this [folder](https://microsoft-my.sharepoint.com/:f:/p/alllee/EuIRFWVcF9xDqvPr2BEtwZEBok4OoCjJutJdMk7zvMf27w?e=rp24dn)). The extracted folder contains a collection of images of weapons scattered in a room.
