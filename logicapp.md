@@ -1,1 +1,0 @@
-# Build a Logic App to Analyse Suspect Statements with Cognitive Services 
