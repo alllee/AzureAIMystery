@@ -2,12 +2,12 @@
 
 ## Getting the suspect statements into your subscription
 
-### Downloading the suspect statements
+#### Downloading the suspect statements
 
 Prior to creating a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
 To Download the suspect statement files click here: ADD LINK
 
-### Uploading the suspect statements
+#### Uploading the suspect statements
 
 Once downloaded, you will need to upload the files to an Azure storage account in your subscription. You can upload the files using the Microsoft Azure Storage Explorer.
 
@@ -24,10 +24,14 @@ If you do not currently have a storage account with a blob container in your sub
 
 Once this is deployed, you can now try uploading the suspect statements via the storage explorer previously mentioned.
 
-# Image
+![uploadStatements](https://user-images.githubusercontent.com/73177811/114023663-0fdd0e00-986b-11eb-9ab3-c78f2a60ce4e.png)
 
 In the explorer:
 * Add your Azure Account and you should see all your storage accounts appear in the left column. 
 * Select the account which you created earlier and then select your container. 
 * Click on the Upload button and add the downloaded suspect statements to the container. 
 * Once done, check in the Azure Portal that the files have been added. 
+
+## Creating a Logic App
+
+Now that we have the data in your subscription, we can start to use it to find out who the murderer is! To become the detective you’ve always wanted to be, we will need the assistance of a Logic App... 
