@@ -16,4 +16,5 @@ If you do not currently have a storage account with a blob container in your sub
 * When done, click review + create at the bottom of the page and then select create once the validation has passed. 
 * Finally, wait for your deployment to complete.
 
+![createStorageAccount](https://user-images.githubusercontent.com/73177811/114023014-48301c80-986a-11eb-9ad2-241a1f619bfc.png)
 
