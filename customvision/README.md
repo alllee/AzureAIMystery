@@ -5,7 +5,7 @@
 
 ## Create a Custom Vision Project
 
- #### 1. In a new browser tab, open the Custom Vision portal at https://customvision.ai and sign in using the MIcrosoft account associated with your Azure subscription
+ #### 1. In a new browser tab, open the Custom Vision portal at https://customvision.ai and sign in using the Microsoft account associated with your Azure subscription
  #### 2. Select New Project
  
  ![image](https://user-images.githubusercontent.com/32169182/113877961-160eb400-97b1-11eb-9fc2-69a25b8b7686.png)
