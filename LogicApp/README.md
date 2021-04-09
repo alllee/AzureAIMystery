@@ -4,14 +4,20 @@
 
 #### Downloading the suspect statements
 
-Prior to creating a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
+Prior to designing a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
 To Download the suspect statement files click here: ADD LINK
 
 #### Uploading the suspect statements
 
-Once downloaded, you will need to upload the files to an Azure storage account in your subscription. You can upload the files using the Microsoft Azure Storage Explorer.
+Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements. If you already have the Microsoft Azure Storage Explorer downloaded you can then use that to upload the files to your storage account. If not, then more simply, you can You can upload the files through the Azure Portal.
 
-If you do not currently have a storage account with a blob container in your subscription then click the button below and this will start the deployment process for you.
+##### Upload files via Azure Portal
+
+* 1. Head over to your storage account resource in the Azure Portal
+* 2. Click on the containers section
+* 3. Select your suspect statements container
+* 4. Click the upload button at the top and select the files you wish to upload.
+
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falllee%2Fcluedo%2Fmain%2FLogicApp%2Fazuredeploy.json)
 
