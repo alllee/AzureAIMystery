@@ -11,7 +11,10 @@ The outcome is hopefully to boost knowledge of confidence in starting to use the
 ## Infrastructure
 
 To get you started, we have put together a template containing the resources you will need to complete each of the challenges. Please click on the button below to start the deployment process for you:
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]
+
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+
+
 < Screenshot of Custom Deployment Page> 
 
 #### Fill in the custom deployment page with the details below:
