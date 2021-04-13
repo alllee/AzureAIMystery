@@ -4,7 +4,7 @@ This repository contains workshops and content for the Cluedo: An AI Mystery wor
 
 ## Who it's for
 
-#### This workshop is aimed at individuals with an interest in AI but with no experience of the cloud artificial intelligence platform and services, who would like some experience deploying and consuming AI services in no-code environments on Azure. 
+This workshop is aimed at individuals with an interest in AI but with no experience of the cloud artificial intelligence platform and services, who would like some experience deploying and consuming AI services in no-code environments on Azure. 
 
 The outcome is hopefully to boost knowledge of confidence in starting to use these components.
 
@@ -14,8 +14,8 @@ To get you started, we have put together a template containing the resources you
 < Deploy to Azure Button> 
 < Screenshot of Custom Deployment Page> 
 
-#### Fill in the custom deployment page with the details below
-  •	**Resource Group**> Create New > cluedo
+#### Fill in the custom deployment page with the details below:
+'''•	**Resource Group**> Create New > cluedo
   
   •	**Region**: UK South
   
@@ -23,7 +23,7 @@ To get you started, we have put together a template containing the resources you
   
   •	**Accounts_cluedocogservice_name**: cluedocogserviceyouralias
   
-  •	**Logic App(?)**: cluedologicappyouralias
+  •	**Logic App(?)**: cluedologicappyouralias'''
   
 When done, click review + create at the bottom of the page and then select create once the validation has passed. Finally, wait for your deployment to complete.
 
