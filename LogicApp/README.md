@@ -63,11 +63,15 @@ Your deployment page should look similar to the above.
 
 ## Designing your logic app
 
-Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
+Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. 
+
+#### 1. Starting with a HTTP Request Trigger
+
+Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
 
 ![httpCommonTrigger](https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png)
 
-#### 1. Bringing suspect statements into your logic app
+#### 2. Bringing suspect statements into your logic app
 
 To ensure we can analyse the statements we first need to bring the suspect statements into the logic app, In the logic apps designer:
 
@@ -81,7 +85,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
 ![listBlobsResults](https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png)  
 
-#### 2. Selecting each statement to analyse
+#### 3. Selecting each statement to analyse
 
 It's great that we can see the statements and they are all present, but now we need to look at each statement individually so that we can analyse it with the Text Analytics service.
 
@@ -94,7 +98,7 @@ As we have the all the statements together we need to loop through them so that 
 * Then, for choosing the next operation, search for "Azure Blob Storage" and then select the "Get blob content" action. Selet "id" as the Blob and have "Infer Content Type" as "Yes".
 ![getBlobContent](https://user-images.githubusercontent.com/73177811/114727688-54b6e800-9d36-11eb-883c-6833cca6725e.png)
 
-#### 3. Analyse each statement's sentiment
+#### 4. Analyse each statement's sentiment
 
 * Add a new step and search for "Text Analytics". Then select "Sentiment (V3.0)(preview)" as the action. This action will allow you to analyse the sentiment of the suspect statement. If their statement is negative then this action will send back a low score and if the statement is positive then you will receive a high score. The scores range from 0 to 1.
 ![textAnalytics](https://user-images.githubusercontent.com/73177811/114728147-bd05c980-9d36-11eb-8148-f5425cc50089.png)
@@ -106,8 +110,12 @@ As we have the all the statements together we need to loop through them so that 
 * Once you are connected to your resource you can perfomr the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 ![connectSentiment](https://user-images.githubusercontent.com/73177811/114729901-4cf84300-9d38-11eb-8734-50476ce7c9b5.png)
 
-#### 4. Save and test your logic app
+#### 5. Save and test your logic app
 
 You now have everything necessary to start analysing suspect statements! Make sure you have saved your logic app and then click "Run". You should be able to select through each suspect statement and look at the sentiment results.
 
-You can also trigger your logic app from an API call. You can perform a HTTP GET request to the URL of your logic app to initiate the logic app. Try this method if you would like to learn more about APIs and making HTTP requests. 
+You can also trigger your logic app from an API call. You can perform a HTTP GET request to the URL of your logic app to initiate the logic app. Try this method if you would like to learn more about APIs and making HTTP requests.
+
+## Optional extra steps
+
+
