@@ -2,12 +2,12 @@
 
 ## Getting the suspect statements into your subscription
 
-#### Downloading the suspect statements
+#### 1. Downloading the suspect statements
 
 Prior to designing a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
 To Download the suspect statement files click here: ADD LINK
 
-#### Uploading the suspect statements
+#### 2. Uploading the suspect statements
 
 Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements. If you already have the Microsoft Azure Storage Explorer downloaded you can then use that to upload the files to your storage account. If not, then more simply, you can upload the files through the Azure Portal.
 
@@ -26,11 +26,9 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 * When done, click review + create at the bottom of the page and then select create once the validation has passed. 
 * Finally, wait for your deployment to complete.
 
-![createStorageAccount](https://user-images.githubusercontent.com/73177811/114023014-48301c80-986a-11eb-9ad2-241a1f619bfc.png)
+##### Upload files via Microsoft Azure Storage Explorer
 
-Once this is deployed, you can now try uploading the suspect statements via the storage explorer previously mentioned.
-
-![uploadStatements](https://user-images.githubusercontent.com/73177811/114023663-0fdd0e00-986b-11eb-9ab3-c78f2a60ce4e.png)
+If you have the storage explorer downloaded then you can also use this method to upload the suspect statements.
 
 In the explorer:
 * Add your Azure Account and you should see all your storage accounts appear in the left column. 
@@ -38,11 +36,14 @@ In the explorer:
 * Click on the Upload button and add the downloaded suspect statements to the container. 
 * Once done, check in the Azure Portal that the files have been added. 
 
+![uploadStatements](https://user-images.githubusercontent.com/73177811/114023663-0fdd0e00-986b-11eb-9ab3-c78f2a60ce4e.png)
+
+
 ## Creating a Logic App
 
 Now that we have the data in your subscription, we can start to use it to find out who the murderer is! To become the detective you’ve always wanted to be, we will need the assistance of a Logic App... 
 
-#### Deploy the logic app via the portal
+#### 1. Deploy the logic app via the portal
 
 * Head over to the Azure Portal and click on the create a resource button at the top of the page.
 * Search for "Logic App" and then select the "create" button.
@@ -66,7 +67,7 @@ Once the logic app is deployed you can click on the resource and get started wit
 
 ![httpCommonTrigger](https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png)
 
-#### Bringing suspect statements into your logic app
+#### 1. Bringing suspect statements into your logic app
 
 To ensure we can analyse the statements we first need to bring the suspect statements into the logic app, In the logic apps designer:
 
@@ -80,7 +81,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
 ![listBlobsResults](https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png)  
 
-#### Selecting each statement to analyse
+#### 2. Selecting each statement to analyse
 
 It's great that we can see the statements and they are all present, but now we need to look at each statement individually so that we can analyse it with the Text Analytics service.
 
@@ -93,7 +94,7 @@ As we have the all the statements together we need to loop through them so that 
 * Then, for choosing the next operation, search for "Azure Blob Storage" and then select the "Get blob content" action. Selet "id" as the Blob and have "Infer Content Type" as "Yes".
 ![getBlobContent](https://user-images.githubusercontent.com/73177811/114727688-54b6e800-9d36-11eb-883c-6833cca6725e.png)
 
-#### Analyse each statement's sentiment
+#### 3. Analyse each statement's sentiment
 
 * Add a new step and search for "Text Analytics". Then select "Sentiment (V3.0)(preview)" as the action. This action will allow you to analyse the sentiment of the suspect statement. If their statement is negative then this action will send back a low score and if the statement is positive then you will receive a high score. The scores range from 0 to 1.
 ![textAnalytics](https://user-images.githubusercontent.com/73177811/114728147-bd05c980-9d36-11eb-8148-f5425cc50089.png)
@@ -105,7 +106,7 @@ As we have the all the statements together we need to loop through them so that 
 * Once you are connected to your resource you can perfomr the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 ![connectSentiment](https://user-images.githubusercontent.com/73177811/114729901-4cf84300-9d38-11eb-8734-50476ce7c9b5.png)
 
-#### Save and test your logic app
+#### 4. Save and test your logic app
 
 You now have everything necessary to start analysing suspect statements! Make sure you have saved your logic app and then click "Run". You should be able to select through each suspect statement and look at the sentiment results.
 
