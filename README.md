@@ -21,14 +21,12 @@ To get you started, we have put together a template containing the resources you
 
 #### Fill in the custom deployment page with the details below:
 -   **Resource Group**> Create New > cluedo
-  
--   **Region**: UK South
-  
--   **Storage Accounts_cluedostorage_name**: cluedostorageyouralias 
+   
+-   **Storage Accounts_cluedostorage_name**: cluedostorageyouralias
   
 -   **Accounts_cluedocogservice_name**: cluedocogserviceyouralias
   
--   **Logic App(?)**: cluedologicappyouralias
+-   **Logic App(?)**: Keep it how it is
   
 When done, click review + create at the bottom of the page and then select create once the validation has passed. Finally, wait for your deployment to complete.
 
