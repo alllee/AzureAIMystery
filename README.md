@@ -26,7 +26,7 @@ To get you started, we have put together a template containing the resources you
   
 -   **Accounts_cluedocogservice_name**: cluedocogserviceyouralias
   
--   **Logic App(?)**: Keep it how it is
+-   **Logic App**: Keep it how it is
   
 When done, click review + create at the bottom of the page and then select create once the validation has passed. Finally, wait for your deployment to complete.
 
