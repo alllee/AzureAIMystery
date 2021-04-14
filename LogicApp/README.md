@@ -84,7 +84,7 @@ As we have the all the statements together we need to loop through them so that 
    * Connection name: Analyse Sentiment
    * Account Key: Your key from your cognitive services resource. Can be Key 1 or Key 2. Obtain this from the "keys and Endpoint" tab in your cognitive services resource.
    * Site URL: Your cognitive service endpoint.
-![textAnalyticsConnection](https://user-images.githubusercontent.com/73177811/114729341-cc394700-9d37-11eb-996e-7ebdab2d8fb7.png)
+   * ![textAnalyticsConnection](https://user-images.githubusercontent.com/73177811/114729341-cc394700-9d37-11eb-996e-7ebdab2d8fb7.png)
 * Once you are connected to your resource you can perfomr the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 ![connectSentiment](https://user-images.githubusercontent.com/73177811/114729901-4cf84300-9d38-11eb-8734-50476ce7c9b5.png)
 
