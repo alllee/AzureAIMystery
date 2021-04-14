@@ -18,6 +18,8 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 * 3. Select your suspect statements container
 * 4. Click the upload button at the top and select the files you wish to upload.
 
+![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
+
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falllee%2Fcluedo%2Fmain%2FLogicApp%2Fazuredeploy.json)
 
@@ -41,3 +43,21 @@ In the explorer:
 ## Creating a Logic App
 
 Now that we have the data in your subscription, we can start to use it to find out who the murderer is! To become the detective you’ve always wanted to be, we will need the assistance of a Logic App... 
+
+#### Deploy the logic app via the portal
+
+* 1. Head over to the Azure Portal and click on the create a resource button at the top of the page.
+* 2. Search for "Logic App" and then select the "create" button.
+
+![createLA](https://user-images.githubusercontent.com/73177811/114717342-ddc92180-9d2c-11eb-8c31-e1d08622fef4.png)
+
+* 3. Fill out the logic app creation form with these details
+*   - Subscription: Select your Visual Studio Enterprise Subscription (Or other subscription if not using MSDN)
+*   - Respurce group: Select the resource group created earlier from the computer vision section
+*   - Logic App name: AnalyseSuspectStatements (You can name it this or something similar)
+*   - Region: UK South (Any region close to you)
+*   - Leave everything else as default and then click Review + Create
+
+![createLAForm](https://user-images.githubusercontent.com/73177811/114718179-aa3ac700-9d2d-11eb-97a3-fb70fcb678d9.png)
+
+Your deployment page should look similar to the above.
