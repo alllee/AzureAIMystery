@@ -82,3 +82,15 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
 ![listBlobsResults](https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png)  
 
+#### Selecting each statement to analyse
+
+It's great that we can see the statements and they are all present, but now we need to look at each statement individually so that we can analyse it with the Text Analytics service.
+
+As we have the all the statements together we need to loop through them so that we can look at one statement at a time. To do this in logic apps you use the "For each" control operation.
+
+* Add a new step in the designer and search for the "Control" operation. In there, select the "For each" action.
+![forEach](https://user-images.githubusercontent.com/73177811/114725447-69927c00-9d34-11eb-8dbc-b03f746e322d.png)
+* In the "For each" step add the "value" from the list blobs dynamic content pop up box as the output from previous step. 
+![valueDynamicContent](https://user-images.githubusercontent.com/73177811/114725844-c2faab00-9d34-11eb-92df-de2fe204e814.png)
+* Then, for choosing the next operation, search for "Text Analytics" and select the "Sentiment (V3.0) (preview)" action.
+![textAnalytics](https://user-images.githubusercontent.com/73177811/114726246-1e2c9d80-9d35-11eb-9c2c-6f8541281e79.png)
