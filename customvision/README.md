@@ -71,3 +71,9 @@ To train an object detection model, you need to upload images that contain the c
 2. Upload and tag your images on Custom Vision as you have done previously.
 
 3. Retrain your model. How has the additional training data affected your model performance?
+
+---
+
+## Resources
+
+![Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/)
