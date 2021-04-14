@@ -52,11 +52,11 @@ Now that we have the data in your subscription, we can start to use it to find o
 ![createLA](https://user-images.githubusercontent.com/73177811/114717342-ddc92180-9d2c-11eb-8c31-e1d08622fef4.png)
 
 * 3. Fill out the logic app creation form with these details
-*   - Subscription: Select your Visual Studio Enterprise Subscription (Or other subscription if not using MSDN)
-*   - Respurce group: Select the resource group created earlier from the computer vision section
-*   - Logic App name: AnalyseSuspectStatements (You can name it this or something similar)
-*   - Region: UK South (Any region close to you)
-*   - Leave everything else as default and then click Review + Create
+  *   Subscription: Select your Visual Studio Enterprise Subscription (Or other subscription if not using MSDN)
+  *   Respurce group: Select the resource group created earlier from the computer vision section
+  *   Logic App name: AnalyseSuspectStatements (You can name it this or something similar)
+  *   Region: UK South (Any region close to you)
+  *   Leave everything else as default and then click Review + Create
 
 ![createLAForm](https://user-images.githubusercontent.com/73177811/114718179-aa3ac700-9d2d-11eb-97a3-fb70fcb678d9.png)
 
