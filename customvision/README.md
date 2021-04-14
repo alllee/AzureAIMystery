@@ -66,8 +66,8 @@ To train an object detection model, you need to upload images that contain the c
 
 
 ## OPTIONAL: Additional Steps
-1. Source your own additional images for each murder weapon. 
+1. Source your own additional images for each murder weapon. Use your search engine of choice to search for and download 2-3 images of each murder weapon. 
 
-2. Upload and tag your images on Custom Vision
+2. Upload and tag your images on Custom Vision as you have done previously.
 
 3. Retrain your model. How has the additional training data affected your model performance?
