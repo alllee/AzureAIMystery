@@ -76,8 +76,9 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * Search for Azure Blob Storage and then select it.
 ![BlobConnector](https://user-images.githubusercontent.com/73177811/114722500-c2144a00-9d31-11eb-8a61-0a6f4b099364.png)
 * Select the "List Blobs" action. This will allow you to see the suspect statements which are in your subscription.
-![listBlobs](https://user-images.githubusercontent.com/73177811/114722684-ea03ad80-9d31-11eb-801b-2f267548ede6.png)
+![listBlobs](https://user-images.githubusercontent.com/73177811/114723956-05bb8380-9d33-11eb-81b8-a24a5e603b31.png)
 * In the "List blobs" box, for the "Folder" field select the folder where your suspect statements are stored, and leave the other fields as they are.
+![selectFolder](https://user-images.githubusercontent.com/73177811/114724146-2c79ba00-9d33-11eb-8905-d4413f5e5ed8.png)
 * Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
 ![listBlobsResults](https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png)  
 
