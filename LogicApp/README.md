@@ -115,4 +115,9 @@ You can also trigger your logic app from an API call. You can perform a HTTP GET
 
 ## Optional extra steps
 
+#### Extract Key Phrases from the suspect statements
+
+#### Perform Entity Recognition
+
+## Resources
 
