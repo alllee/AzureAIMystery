@@ -76,4 +76,4 @@ To train an object detection model, you need to upload images that contain the c
 
 ## Resources
 
-![Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/)
+[Custom Vision Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/)
