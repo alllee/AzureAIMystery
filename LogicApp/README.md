@@ -41,11 +41,13 @@ In the explorer:
 
 ## Designing your logic app
 
-Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. 
+Before commencing with designing your logic app, make sure that the logic app deployed from the ARM template at the start of the lab has deployed successfully. You will be using that logic app for analysing the suspect statements.
+
+To help people get started there are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. 
 
 #### 1. Starting with a HTTP Request Trigger
 
-Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
+* Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
 
 ![httpCommonTrigger](https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png)
 
