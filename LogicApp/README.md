@@ -21,8 +21,6 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 ![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falllee%2Fcluedo%2Fmain%2FLogicApp%2Fazuredeploy.json)
-
 * Select the resource group that you want to deploy this to, the resource group you used earlier for the custom vision section would be ideal, and then give the storage account and container names. 
 * Try and use a region which is close to you geographically. 
 * When done, click review + create at the bottom of the page and then select create once the validation has passed. 
