@@ -58,7 +58,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * Select the "+ New Step" button after the HTTP request trigger.
 * Search for Azure Blob Storage and then select it.
 
-![BlobConnector](https://user-images.githubusercontent.com/73177811/114740722-060f4b00-9d42-11eb-957b-327e0248bca2.png)
+![BlobConnector](https://user-images.githubusercontent.com/73177811/114740890-2f2fdb80-9d42-11eb-84e1-8c260f3fa272.png)
 
 * Select the "List Blobs" action. This will allow you to see the suspect statements which are in your subscription.
 
