@@ -81,9 +81,9 @@ As we have the all the statements together we need to loop through them so that 
 * Add a new step and search for "Text Analytics". Then select "Sentiment (V3.0)(preview)" as the action. This action will allow you to analyse the sentiment of the suspect statement. If their statement is negative then this action will send back a low score and if the statement is positive then you will receive a high score. The scores range from 0 to 1.
 ![textAnalytics](https://user-images.githubusercontent.com/73177811/114728147-bd05c980-9d36-11eb-8148-f5425cc50089.png)
 * To allow you to perform the sentiment analysis on the correct statements you will need to make sure the text analytics service in the logic app is connected to your cognitive service resource which you created earlier.
- * Connection name: Analyse Sentiment
- * Account Key: Your key from your cognitive services resource. Can be Key 1 or Key 2. Obtain this from the "keys and Endpoint" tab in your cognitive services resource.
- * Site URL: Your cognitive service endpoint.
+   * Connection name: Analyse Sentiment
+   * Account Key: Your key from your cognitive services resource. Can be Key 1 or Key 2. Obtain this from the "keys and Endpoint" tab in your cognitive services resource.
+   * Site URL: Your cognitive service endpoint.
 ![textAnalyticsConnection](https://user-images.githubusercontent.com/73177811/114729341-cc394700-9d37-11eb-996e-7ebdab2d8fb7.png)
 * Once you are connected to your resource you can perfomr the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 ![connectSentiment](https://user-images.githubusercontent.com/73177811/114729901-4cf84300-9d38-11eb-8734-50476ce7c9b5.png)
