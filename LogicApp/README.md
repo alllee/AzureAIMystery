@@ -9,7 +9,7 @@ To Download the suspect statement files click here: ADD LINK
 
 #### Uploading the suspect statements
 
-Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements. If you already have the Microsoft Azure Storage Explorer downloaded you can then use that to upload the files to your storage account. If not, then more simply, you can You can upload the files through the Azure Portal.
+Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements. If you already have the Microsoft Azure Storage Explorer downloaded you can then use that to upload the files to your storage account. If not, then more simply, you can upload the files through the Azure Portal.
 
 ##### Upload files via Azure Portal
 
