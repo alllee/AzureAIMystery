@@ -39,28 +39,6 @@ In the explorer:
 ![uploadStatements](https://user-images.githubusercontent.com/73177811/114023663-0fdd0e00-986b-11eb-9ab3-c78f2a60ce4e.png)
 
 
-## Creating a Logic App
-
-Now that we have the data in your subscription, we can start to use it to find out who the murderer is! To become the detective you’ve always wanted to be, we will need the assistance of a Logic App... 
-
-#### 1. Deploy the logic app via the portal
-
-* Head over to the Azure Portal and click on the create a resource button at the top of the page.
-* Search for "Logic App" and then select the "create" button.
-
-![createLA](https://user-images.githubusercontent.com/73177811/114717342-ddc92180-9d2c-11eb-8c31-e1d08622fef4.png)
-
-* Fill out the logic app creation form with these details:
-  *   Subscription: Select your Visual Studio Enterprise Subscription (Or other subscription if not using MSDN)
-  *   Respurce group: Select the resource group created earlier from the computer vision section
-  *   Logic App name: AnalyseSuspectStatements (You can name it this or something similar)
-  *   Region: UK South (Any region close to you)
-  *   Leave everything else as default and then click Review + Create
-
-![createLAForm](https://user-images.githubusercontent.com/73177811/114718179-aa3ac700-9d2d-11eb-97a3-fb70fcb678d9.png)
-
-Your deployment page should look similar to the above.
-
 ## Designing your logic app
 
 Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. 
