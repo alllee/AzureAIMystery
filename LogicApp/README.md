@@ -61,3 +61,11 @@ Now that we have the data in your subscription, we can start to use it to find o
 ![createLAForm](https://user-images.githubusercontent.com/73177811/114718179-aa3ac700-9d2d-11eb-97a3-fb70fcb678d9.png)
 
 Your deployment page should look similar to the above.
+
+#### Designing your logic app
+
+Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
+
+![httpCommonTrigger](https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png)
+
+
