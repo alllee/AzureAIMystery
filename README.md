@@ -16,8 +16,6 @@ To get you started, we have put together a template containing the resources you
 
 
 
-< Screenshot of Custom Deployment Page> 
-
 #### Fill in the custom deployment page with the details below:
 -   **Resource Group**> Create New > cluedo
   
