@@ -32,4 +32,4 @@ When done, click review + create at the bottom of the page and then select creat
 
 If successful, you should be able to see a list of the 3 resources deployed within your resource group
  
-You are now ready to begin your first challenge!
+**You are now ready to begin your first challenge!
