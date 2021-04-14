@@ -15,6 +15,8 @@ To get you started, we have put together a template containing the resources you
 
 [![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsalmanmkc%2Fai-hackathon%2Fmain%2Ftemplate.json)
 
+![here](https://user-images.githubusercontent.com/32169182/114722736-f556d900-9d31-11eb-9676-af9816c6b56f.png)
+
 
 
 #### Fill in the custom deployment page with the details below:
