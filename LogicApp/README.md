@@ -13,10 +13,10 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 
 ##### Upload files via Azure Portal
 
-* 1. Head over to your storage account resource in the Azure Portal
-* 2. Click on the containers section
-* 3. Select your suspect statements container
-* 4. Click the upload button at the top and select the files you wish to upload.
+* Head over to your storage account resource in the Azure Portal
+* Click on the containers section
+* Select your suspect statements container
+* Click the upload button at the top and select the files you wish to upload.
 
 ![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
 
@@ -62,7 +62,7 @@ Now that we have the data in your subscription, we can start to use it to find o
 
 Your deployment page should look similar to the above.
 
-#### Designing your logic app
+## Designing your logic app
 
 Once the logic app is deployed you can click on the resource and get started with the design process. There are many different logic app templates which can be used to provide a starting point for developers, such as: "Recurrence" and "When a new tweet is posted". Today you will be using the "When a HTTP request is received" trigger template which causes the logic app to be run when it receives a HTTP request. Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
 
