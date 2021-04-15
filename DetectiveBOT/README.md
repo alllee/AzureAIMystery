@@ -12,4 +12,5 @@ Note: Detective B.O.T. has a _witty_ personality. Play around with different pro
 
 ## Additional Resources
 [QnA Maker Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/)
+
 [Bot Personalities](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1)
