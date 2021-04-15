@@ -5,4 +5,11 @@
 3.	Based on the evidence you have analysed, make your guess as you would in the original board game e.g. Professor Plum with a Candlestick in the Library
 4.	How many tries does it take you to guess correctly?
 
+Note: Detective B.O.T. has a _witty_ personality. Play around with different prompts and see what response you get back!
+
 ### Good Luck!
+
+
+## Additional Resources
+[QnA Maker Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/)
+[Bot Personalities](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1)
