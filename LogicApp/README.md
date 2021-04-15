@@ -7,7 +7,7 @@
 Prior to designing a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
 To Download the suspect statement files click here: [Suspect Statements](https://github.com/alllee/Cluedo/blob/main/LogicApp/Suspect%20Statements/SuspectStatementsZip.zip) and then click the download button.
 
-You can view all the suspect statements in the suspect statements folder in this repo as well.
+Additionally, if you just want to view all the suspect statements without downloading them you can navigate to the suspect statements folder in this repo.
 
 #### 2. Uploading the suspect statements
 
