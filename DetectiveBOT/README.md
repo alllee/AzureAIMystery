@@ -7,7 +7,7 @@
 
 Here is a reminder of your potential 
 
-People | Weapons | PLaces
+People | Weapons | Places
 --- | --- | --- |
 Mrs. White | Candlestick | Kitchen
 Mr. Green | Dagger | Conservatory
@@ -15,8 +15,8 @@ Mrs. Peacock | Lead Pipe | Dining Room
 Professor Plum  | Revolver | Cellar
 Miss Scarlet | Rope | Billiard Room
 Colonel Mustard | Wrench | Library
- |  | Hall
-  |  | Lounge
+ |  |  |  Hall
+  |  |  | Lounge
 
 Note: Detective B.O.T. has a _witty_ personality. Play around with different prompts and see what response you get back!
 
