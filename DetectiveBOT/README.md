@@ -5,7 +5,7 @@
 3.	Based on the evidence you have analysed, make your guess as you would in the original board game e.g. Professor Plum with a Candlestick in the Library
 4.	How many tries does it take you to guess correctly?
 
-Here is a reminder of your potential 
+**Here is a reminder of your potential guesses**
 
 People | Weapons | Places
 --- | --- | --- |
