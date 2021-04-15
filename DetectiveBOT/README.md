@@ -5,6 +5,19 @@
 3.	Based on the evidence you have analysed, make your guess as you would in the original board game e.g. Professor Plum with a Candlestick in the Library
 4.	How many tries does it take you to guess correctly?
 
+Here is a reminder of your potential 
+
+People | Weapons | PLaces
+--- | --- | --- |
+Mrs. White | Candlestick | Kitchen
+Mr. Green | Dagger | Conservatory
+Mrs. Peacock | Lead Pipe | Dining Room
+Professor Plum  | Revolver | Cellar
+Miss Scarlet | Rope | Billiard Room
+Colonel Mustard | Wrench | Library
+ |  | Hall
+  |  | Lounge
+
 Note: Detective B.O.T. has a _witty_ personality. Play around with different prompts and see what response you get back!
 
 
