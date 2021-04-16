@@ -16,7 +16,7 @@
     
 -   Description: Train an Object Detection model to identify the location of murder weapons within an image of a room
     
--   Resource: cluedocogservice
+-   Resource: cluedocogservice_youralias_
     
 -   Project Types: Object Detection
     
