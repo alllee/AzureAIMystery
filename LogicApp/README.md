@@ -23,11 +23,6 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 ![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
 
 
-* Select the resource group that you want to deploy this to, the resource group you used earlier for the custom vision section would be ideal, and then give the storage account and container names. 
-* Try and use a region which is close to you geographically. 
-* When done, click review + create at the bottom of the page and then select create once the validation has passed. 
-* Finally, wait for your deployment to complete.
-
 ##### Upload files via Microsoft Azure Storage Explorer
 
 If you have the storage explorer downloaded then you can also use this method to upload the suspect statements.
