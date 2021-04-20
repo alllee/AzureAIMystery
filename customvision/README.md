@@ -62,7 +62,7 @@ To train an object detection model, you need to upload images that contain the c
     
 2.  Wait for training to complete (it might take ten minutes or so), and then review the Precision, Recall, and mAP performance metrics - these measure the prediction accuracy of the classification model. Take note of the performance per tag – which weapon has the highest precision?
 
-3.  At the top right of the page, click Quick Test, and then upload an image from [test images](https://github.com/alllee/cluedo/blob/main/customvision/test%20images.zip) and view the prediction that is generated. Increase the threshold to 90%  and observe the results. What weapons have been identified in which rooms?
+3. Download and extract the zip file [test images](https://github.com/alllee/cluedo/blob/main/customvision/test%20images.zip). On the custom vision page, at the top right of the page, click Quick Test, and then upload an image from the extracted zip folder and view the prediction that is generated. Increase the threshold to 90%  and observe the results. What weapons have been identified in which rooms?
 
 
 ## OPTIONAL: Additional Steps
