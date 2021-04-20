@@ -125,6 +125,6 @@ In this section of the task, try to explore the other actions in the text analyt
 
 ## Resources
 
-* [!Logic App Documentation](https://docs.microsoft.com/en-gb/azure/logic-apps/)
-* [!Intro to Logic Apps Learn Module](https://docs.microsoft.com/en-gb/learn/modules/intro-to-logic-apps/)
-* [!Text Analytics Learn Module](https://docs.microsoft.com/en-gb/learn/modules/analyze-text-with-text-analytics-service/)
+* [Logic App Documentation](https://docs.microsoft.com/en-gb/azure/logic-apps/)
+* [Intro to Logic Apps Learn Module](https://docs.microsoft.com/en-gb/learn/modules/intro-to-logic-apps/)
+* [Text Analytics Learn Module](https://docs.microsoft.com/en-gb/learn/modules/analyze-text-with-text-analytics-service/)
