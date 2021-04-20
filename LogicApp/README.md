@@ -16,7 +16,7 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 ##### Upload files via Azure Portal
 
 * Head over to your storage account resource in the Azure Portal
-* Click on the containers section
+* Click on the containers section. (If one does not exist. Click on the + container button at the top and add a private container called "suspectstatements")
 * Select your suspect statements container
 * Click the upload button at the top and select the files you wish to upload.
 
