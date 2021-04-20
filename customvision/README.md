@@ -30,7 +30,7 @@
 
 ## Add and Tag Images
 To train an object detection model, you need to upload images that contain the classes you want the model to identify, and tag them to indicate bounding boxes for each object instance.
-1.  Download and extract the [training images](https://github.com/alllee/cluedo/blob/main/customvision/training%20images.zip). The extracted folder contains a collection of images of weapons scattered in a room.
+1.  Download and extract the [training images](https://github.com/alllee/cluedo/blob/main/customvision/training%20images.zip). The extracted zip folder contains a collection of images of weapons scattered in a room.
     
 
 2.  In the Custom Vision portal, in your object detection project, select Add Images and upload all of the images in the extracted folder.
