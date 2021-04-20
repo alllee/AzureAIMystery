@@ -117,9 +117,11 @@ You can also trigger your logic app from an API call. You can perform a HTTP GET
 
 ## Optional extra steps
 
-#### Extract Key Phrases from the suspect statements
+In this section of the task, try to explore the other actions in the text analytics connector. There will be no guided tutorial for this but do ask your coach if you get stuck.
 
-#### Perform Entity Recognition
+#### 1. Extract Key Phrases from the suspect statements
+
+#### 2. Perform Entity Recognition
 
 ## Resources
 
