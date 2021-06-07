@@ -13,7 +13,7 @@ The outcome is hopefully to boost knowledge of confidence in starting to use the
 To get you started, we have put together a template containing the resources you will need to complete each of the challenges. Please click on the button below to start the deployment process for you:
 
 
-[![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsalmanmkc%2Fai-hackathon%2Fmain%2Ftemplate.json)
+[![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falllee%2FAzureMurderMystery%2Fmain%2Ftemplate.json)
 
 ![Deployment of Template Page](https://user-images.githubusercontent.com/32169182/114722736-f556d900-9d31-11eb-9676-af9816c6b56f.png)
 
