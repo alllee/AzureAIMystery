@@ -2,15 +2,15 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "workflows_cleudologicapp_name": {
+        "workflows_mysterylogicapp_name": {
             "defaultValue": "cleudologicapp",
             "type": "String"
         },
-        "storageAccounts_cluedostorage_name": {
+        "storageAccounts_mysterystorage_name": {
             "defaultValue": "",
             "type": "String"
         },
-        "accounts_cluedocogservices_name": {
+        "accounts_mysterycogservices_name": {
             "defaultValue": "",
             "type": "String"
         }
