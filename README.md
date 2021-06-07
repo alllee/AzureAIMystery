@@ -22,9 +22,9 @@ To get you started, we have put together a template containing the resources you
 #### Fill in the custom deployment page with the details below:
 -   **Resource Group**> Create New > cluedo
    
--   **Storage Accounts_cluedostorage_name**: cluedostorageyouralias
+-   **Storage Accounts_mysterystorage_name**: mysterystorageyouralias
   
--   **Accounts_cluedocogservice_name**: cluedocogserviceyouralias
+-   **Accounts_mysterycogservice_name**: mysterycogserviceyouralias
   
 -   **Logic App**: Keep it how it is
   
