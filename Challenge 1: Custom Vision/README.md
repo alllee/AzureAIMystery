@@ -30,7 +30,7 @@
 
 ## Add and Tag Images
 To train an object detection model, you need to upload images that contain the classes you want the model to identify, and tag them to indicate bounding boxes for each object instance.
-1.  Download and extract the [training images](https://github.com/alllee/cluedo/blob/main/customvision/training%20images.zip). The extracted zip folder contains a collection of images of weapons scattered in a room.
+1.  Download and extract the [Training Images](https://github.com/alllee/AzureMurderMystery/blob/main/Challenge%201:%20Custom%20Vision/Training%20Images.zip). The extracted zip folder contains a collection of images of weapons scattered in a room.
     
 
 2.  In the Custom Vision portal, in your object detection project, select Add Images and upload all of the images in the extracted folder.
@@ -62,7 +62,7 @@ To train an object detection model, you need to upload images that contain the c
     
 2.  Wait for training to complete (it might take ten minutes or so), and then review the Precision, Recall, and mAP performance metrics - these measure the prediction accuracy of the classification model. Take note of the performance per tag – which weapon has the highest precision?
 
-3. Download and extract the zip file [test images](https://github.com/alllee/cluedo/blob/main/customvision/test%20images.zip). On the custom vision page, at the top right of the page, click Quick Test, and then upload an image from the extracted zip folder and view the prediction that is generated. Increase the threshold to 90%  and observe the results. What weapons have been identified in which rooms?
+3. Download and extract the zip file [Crime Scene Images](https://github.com/alllee/AzureMurderMystery/blob/main/Challenge%201:%20Custom%20Vision/Crime%20Scene%20Images.zip). On the custom vision page, at the top right of the page, click Quick Test, and then upload an image from the extracted zip folder and view the prediction that is generated. Increase the threshold to 90%  and observe the results. What weapons have been identified in which rooms?
 
 
 ## OPTIONAL: Additional Steps
