@@ -1,6 +1,6 @@
 # **Introduction**
 
-This repository contains workshops and content for the Cluedo: An AI Mystery workshop.
+This repository contains workshops and content for the Azure Murder Mstery: An AI Mystery workshop.
 
 ## Who it's for
 
