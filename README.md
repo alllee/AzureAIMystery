@@ -15,8 +15,7 @@ To get you started, we have put together a template containing the resources you
 
 [![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falllee%2FAzureMurderMystery%2Fmain%2Ftemplate.json)
 
-![Deployment of Template Page](https://user-images.githubusercontent.com/32169182/114722736-f556d900-9d31-11eb-9676-af9816c6b56f.png)
-
+![Deployment of Template Page](https://user-images.githubusercontent.com/77331292/121039271-db24fe80-c7a8-11eb-9599-814c9c079c22.png)
 
 
 #### Fill in the custom deployment page with the details below:
