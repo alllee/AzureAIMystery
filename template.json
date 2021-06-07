@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workflows_mysterylogicapp_name": {
-            "defaultValue": "cleudologicapp",
+            "defaultValue": "mysterylogicapp",
             "type": "String"
         },
         "storageAccounts_mysterystorage_name": {
