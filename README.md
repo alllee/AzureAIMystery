@@ -19,7 +19,7 @@ To get you started, we have put together a template containing the resources you
 
 
 #### Fill in the custom deployment page with the details below:
--   **Resource Group**> Create New > MurderMystery
+-   **Resource Group**> Create New > AzureMystery
    
 -   **Storage Accounts_mysterystorage_name**: mysterystorageyouralias
   
