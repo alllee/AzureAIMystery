@@ -52,7 +52,7 @@ To help people get started there are many different logic app templates which ca
 
 * Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
 
-![httpCommonTrigger](https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png)
+  <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png) width="600"/>
 
 #### 2. Bringing suspect statements into your logic app
 
@@ -60,8 +60,8 @@ To ensure we can analyse the statements we first need to bring the suspect state
 
 * Select the "+ New Step" button after the HTTP request trigger.
 * Search for Azure Blob Storage and then select it.
-
-![BlobConnector](https://user-images.githubusercontent.com/73177811/114741082-571f3f00-9d42-11eb-9239-e563287d4721.png)
+                 
+  <img src="https://user-images.githubusercontent.com/73177811/114741082-571f3f00-9d42-11eb-9239-e563287d4721.png) width="600"/>
 
 * Select the "List Blobs" action. This will allow you to see the suspect statements which are in your subscription.
 
@@ -77,7 +77,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
 * To get your access key 
   1. Go to your storage account and navigate to Security + Networking > Access Keys 
   <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" />
+   <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" width="200"/>
   </p>  
   2. Click on "Show Keys"
   <p align="left">
