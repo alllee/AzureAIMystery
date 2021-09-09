@@ -15,18 +15,18 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 
 * Head over to your storage account resource in the Azure Portal. It should be called "mysterystorage<youralias>"
 * Navigate to Data Storage > Containers
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png" width="300" />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77331292/132732340-c4ac83dd-562c-4ec3-99f3-303fbac8304c.png" width="250" />
 </p>  
   
 *  Click on the + container button at the top and add a private container called "suspectstatements". Select your suspect statements container
-<p align="left">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png" width="300" />
 </p> 
   
 * Click the upload button at the top and select all files you wish to upload. Your uploaded statements in the container should look like the screenshot below.
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/77331292/132718420-d212312f-4c53-42a2-829c-1d9e013e02a0.png" width="600" />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77331292/132718420-d212312f-4c53-42a2-829c-1d9e013e02a0.png" width="900" />
 </p> 
   
 ##### Upload files via Microsoft Azure Storage Explorer
@@ -52,7 +52,7 @@ To help people get started there are many different logic app templates which ca
 
 * Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png" width="700"/>
+    <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png" width="900"/>
   </p>
   
 #### 2. Bringing suspect statements into your logic app
