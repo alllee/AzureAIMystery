@@ -15,10 +15,10 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 
 * Head over to your storage account resource in the Azure Portal. It should be called "mysterystorage<youralias>"
 * Click on the containers section.
-  ![StorageContainers](https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png)
+![StorageContainers](https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png| width=80)
 
 *  Click on the + container button at the top and add a private container called "suspectstatements". Select your suspect statements container
-  ![NameContainer](https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png)
+![NameContainer](https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png | width=80)
   
 * Click the upload button at the top and select the files you wish to upload.
 
