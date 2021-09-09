@@ -85,7 +85,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
   </p>
   3. Select a key and copy to clipboard
   <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" />
+   <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" width="500"/>
   </p>
   4. Navigate back to your Logic App. Paste Key in "Azure Storage Account Access Key"
   
