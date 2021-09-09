@@ -112,7 +112,7 @@ It's great that we can see the statements and they are all present, but now we n
 
 As we have the all the statements together we need to loop through them so that we can look at one statement at a time. To do this in logic apps you use the "For each" control operation.
 
-* Navugate back to the Desinger for your logic app and add a new step. Search for the "Control" operation. In there, select the "For each" action.
+* Navigate back to the Designer for your logic app and add a new step. Search for the "Control" operation. In there, select the "For each" action.
   <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114725447-69927c00-9d34-11eb-8dbc-b03f746e322d.png" width="600"/>
   </p>
@@ -122,33 +122,44 @@ As we have the all the statements together we need to loop through them so that 
    <img src="https://user-images.githubusercontent.com/73177811/114725844-c2faab00-9d34-11eb-92df-de2fe204e814.png" width="600"/>
  </p>
 
-* Then, for choosing the next operation, search for "Azure Blob Storage" and then select the "Get blob content" action. Selet "id" as the Blob and have "Infer Content Type" as "Yes".
+* Then, add an action. Search for "Azure Blob Storage" and then select the "Get blob content" action. Selet "id" as the Blob and have "Infer Content Type" as "Yes".
  <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114727688-54b6e800-9d36-11eb-883c-6833cca6725e.png" width="600"/>
  </p>
+  
+* Save your logic app 
 
 #### 4. Analyse each statement's sentiment
 
-* Add a new step and search for "Text Analytics". Then select "Sentiment (V3.0)(preview)" as the action. This action will allow you to analyse the sentiment of the suspect statement. If their statement is negative then this action will send back a low score and if the statement is positive then you will receive a high score. The scores range from 0 to 1.
+* Add a new step and search for "Text Analytics". Then select "Sentiment (V3.0)" as the action. This action will allow you to analyse the sentiment of the suspect statement. If their statement is negative then this action will send back a low score and if the statement is positive then you will receive a high score. The scores range from 0 to 1.
 <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114728147-bd05c980-9d36-11eb-8148-f5425cc50089.png" width="600"/>
  </p>
 
-* To allow you to perform the sentiment analysis on the correct statements you will need to make sure the text analytics service in the logic app is connected to your cognitive service resource which you created earlier.
-   * Connection name: Analyse Sentiment
-   * Account Key: Your key from your cognitive services resource. Can be Key 1 or Key 2. Obtain this from the "keys and Endpoint" tab in your cognitive services resource.
-   * Site URL: Your cognitive service endpoint.
- 
-  <p align="center">
+* To allow you to perform the sentiment analysis on the correct statements you will need to make sure the text analytics service in the logic app is connected to your cognitive service resource which you created earlier. Similar to how we connected to the storage account, you will need to supply a key to establish a connection to the cognitive service resource. 
+   * Connection name: cogserviceconnection
+   * Account Key: 
+      -   In a new tab, navigate to your Cognitive Service resource within your Resource Group called "mysterycogservice<youralias>"
+      -   Use the menu on the left to navigate to Resource Management>Keys and Endpoint
+      -   Click *Show Keys*
+      -   Copy KEY 1 to Clipboard
+      -   Navigate back to your Logic App and paste key in *Account Key*  
+
+ <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114729341-cc394700-9d37-11eb-996e-7ebdab2d8fb7.png" width="600"/>
  </p>
 
-* Once you are connected to your resource you can perfomr the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
+  <p align="center">
+   <img src="https://user-images.githubusercontent.com/77331292/132735313-ae52ba47-bee0-4661-82ad-88416fea2ef7.png" width="600"/>
+ </p>
+  
+* Once you are connected to your resource you can perform the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 
  <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114729901-4cf84300-9d38-11eb-8734-50476ce7c9b5.png" width="600"/>
  </p>
 
+  
 
 #### 5. Save and test your logic app
 
