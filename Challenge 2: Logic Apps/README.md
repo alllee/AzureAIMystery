@@ -14,7 +14,7 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 ##### Upload files via Azure Portal
 
 * Head over to your storage account resource in the Azure Portal. It should be called "mysterystorage<youralias>"
-* Click on the containers section.
+* Navigate to Data Storage > Containers
 <p align="center">
   <img src="https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png" width="200" />
 </p>  
@@ -67,6 +67,29 @@ To ensure we can analyse the statements we first need to bring the suspect state
 
 ![listBlobs](https://user-images.githubusercontent.com/73177811/114723956-05bb8380-9d33-11eb-81b8-a24a5e603b31.png)
 
+* You will now be prompted for an authentication key to connect to your storage where your statements are uploaded. 
+  Fill in the blanks with the details below:
+  -   *Connection Name*: sotrageconnection
+  -   *Authentication Type*: Access Key
+  -   *Azure Storage Account name*: mysterystorage<youralias>
+  -   *Azure Storage Account Access Key*: Follow instructions below!
+  
+* To get your access key 
+  1. Go to your storage account and navigate to Security + Networking > Access Keys 
+  <p align="center">
+   <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" />
+  </p>  
+  2. Click on "Show Keys"
+  <p align="left">
+   <img src="https://user-images.githubusercontent.com/77331292/132728290-dce7a20b-153a-4b87-bbc6-7098ba3f2639.png" />
+  </p>
+  3. Select a key and copy to clipboard
+  <p align="left">
+   <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" />
+  </p>
+  4. Navigate back to your Logic App. Paste Key in "Azure Storage Account Access Key"
+  
+  
 * In the "List blobs" box, for the "Folder" field select the folder where your suspect statements are stored, and leave the other fields as default.
 
 ![selectFolder](https://user-images.githubusercontent.com/73177811/114724146-2c79ba00-9d33-11eb-8905-d4413f5e5ed8.png)
