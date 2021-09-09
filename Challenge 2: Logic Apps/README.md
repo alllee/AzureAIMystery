@@ -96,13 +96,12 @@ To ensure we can analyse the statements we first need to bring the suspect state
   
   4. Navigate back to your Logic App. Paste Key in "Azure Storage Account Access Key"
   
-  
-* In the "List blobs" box, for the "Folder" field select the folder where your suspect statements are stored, and leave the other fields as default.
- <p align="center">               
-    <img src="https://user-images.githubusercontent.com/73177811/114724146-2c79ba00-9d33-11eb-8905-d4413f5e5ed8.png" width="600"/>
+* You should now be connected to your storage account! Now, select the folder where your statements are stored
+  <p align="center">               
+    <img src="https://user-images.githubusercontent.com/77331292/132733202-6bc87ef1-7a53-4984-8a78-00697938010e.png" width="600"/>
  </p>
-
-* Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
+  
+* Click save and test run your logic app by clicking on the Run Trigger>Run at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
  <p align="center">               
     <img src="https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png" width="600"/>
  </p>
@@ -113,7 +112,7 @@ It's great that we can see the statements and they are all present, but now we n
 
 As we have the all the statements together we need to loop through them so that we can look at one statement at a time. To do this in logic apps you use the "For each" control operation.
 
-* Add a new step in the designer and search for the "Control" operation. In there, select the "For each" action.
+* Navugate back to the Desinger for your logic app and add a new step. Search for the "Control" operation. In there, select the "For each" action.
   <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114725447-69927c00-9d34-11eb-8dbc-b03f746e322d.png" width="600"/>
   </p>
