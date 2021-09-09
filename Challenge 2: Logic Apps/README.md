@@ -19,12 +19,10 @@ Once downloaded, you will need to upload the files to an Azure storage account i
   
   
 *  Click on the + container button at the top and add a private container called "suspectstatements". Select your suspect statements container
-<img src="https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png" width="200" />
+<img src="https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png" width="300" />
   
-* Click the upload button at the top and select the files you wish to upload.
-
-![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
-
+* Click the upload button at the top and select all files you wish to upload. Your uploaded statements in the container should look like the screenshot below.
+<img src="https://user-images.githubusercontent.com/77331292/132718420-d212312f-4c53-42a2-829c-1d9e013e02a0.png" width="300" />
 
 ##### Upload files via Microsoft Azure Storage Explorer
 
