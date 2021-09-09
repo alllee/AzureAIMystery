@@ -148,10 +148,6 @@ As we have the all the statements together we need to loop through them so that 
  <p align="center">
    <img src="https://user-images.githubusercontent.com/73177811/114729341-cc394700-9d37-11eb-996e-7ebdab2d8fb7.png" width="600"/>
  </p>
-
-  <p align="center">
-   <img src="https://user-images.githubusercontent.com/77331292/132735313-ae52ba47-bee0-4661-82ad-88416fea2ef7.png" width="600"/>
- </p>
   
 * Once you are connected to your resource you can perform the sentiment analysis on each suspect statement. Select "Id" for the "documents id - 1" and then "File Content" for "documents text - 1". This brings in the individual suspect statement. Enter "en" for the "documents language - 1" to specify that the statements are in English.
 
