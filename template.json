@@ -20,7 +20,7 @@
         {
             "type": "Microsoft.CognitiveServices/accounts",
             "apiVersion": "2017-04-18",
-            "name": "[parameters('accounts_cluedocogservices_name')]",
+            "name": "[parameters('accounts_mysterycogservices_name')]",
             "location": "uksouth",
             "sku": {
                 "name": "S0"
