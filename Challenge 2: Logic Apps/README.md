@@ -26,7 +26,7 @@ Once downloaded, you will need to upload the files to an Azure storage account i
   
 * Click the upload button at the top and select all files you wish to upload. Your uploaded statements in the container should look like the screenshot below.
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/77331292/132718420-d212312f-4c53-42a2-829c-1d9e013e02a0.png" width="500" />
+  <img src="https://user-images.githubusercontent.com/77331292/132718420-d212312f-4c53-42a2-829c-1d9e013e02a0.png" width="600" />
 </p> 
   
 ##### Upload files via Microsoft Azure Storage Explorer
@@ -51,22 +51,24 @@ To help people get started there are many different logic app templates which ca
 #### 1. Starting with a HTTP Request Trigger
 
 * Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
-
+  <p align="center">
     <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png" width="600"/>
-
+  </p>
+  
 #### 2. Bringing suspect statements into your logic app
 
 To ensure we can analyse the statements we first need to bring the suspect statements into the logic app, In the logic apps designer:
 
 * Select the "+ New Step" button after the HTTP request trigger.
 * Search for Azure Blob Storage and then select it.
-                 
-  <img src="https://user-images.githubusercontent.com/73177811/114741082-571f3f00-9d42-11eb-9239-e563287d4721.png" width="600"/>
-
+  <p align="center">               
+    <img src="https://user-images.githubusercontent.com/73177811/114741082-571f3f00-9d42-11eb-9239-e563287d4721.png" width="600"/>
+  </p>
+  
 * Select the "List Blobs" action. This will allow you to see the suspect statements which are in your subscription.
-
-  <img src="https://user-images.githubusercontent.com/73177811/114723956-05bb8380-9d33-11eb-81b8-a24a5e603b31.png" width="600"/>
-
+  <p align="center">
+   <img src="https://user-images.githubusercontent.com/73177811/114723956-05bb8380-9d33-11eb-81b8-a24a5e603b31.png" width="600"/>
+  </p>
 
 * You will now be prompted for an authentication key to connect to your storage where your statements are uploaded. 
   Fill in the blanks with the details below:
@@ -82,22 +84,24 @@ To ensure we can analyse the statements we first need to bring the suspect state
   </p>  
   2. Click on "Show Keys"
   <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132728290-dce7a20b-153a-4b87-bbc6-7098ba3f2639.png" />
+   <img src="https://user-images.githubusercontent.com/77331292/132728290-dce7a20b-153a-4b87-bbc6-7098ba3f2639.png" width="100"/>
   </p>
   3. Select a key and copy to clipboard
   <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" width="500"/>
+   <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" width="600"/>
   </p>
   4. Navigate back to your Logic App. Paste Key in "Azure Storage Account Access Key"
   
   
 * In the "List blobs" box, for the "Folder" field select the folder where your suspect statements are stored, and leave the other fields as default.
-
-![selectFolder](https://user-images.githubusercontent.com/73177811/114724146-2c79ba00-9d33-11eb-8905-d4413f5e5ed8.png)
+ <p align="center">               
+    <img src="https://user-images.githubusercontent.com/73177811/114724146-2c79ba00-9d33-11eb-8905-d4413f5e5ed8.png" width="600"/>
+ </p>
 
 * Click save and test run your logic app by clicking on the "Run" button at the top of the designer. You should see be able to see all the suspect statments and scroll through them. Your results from the run should look similar to the screenshot below:
-
-![listBlobsResults](https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png)  
+ <p align="center">               
+    <img src="https://user-images.githubusercontent.com/73177811/114723614-b412f900-9d32-11eb-9b4f-0a5ae4f36023.png" width="600"/>
+ </p>
 
 #### 3. Selecting each statement to analyse
 
