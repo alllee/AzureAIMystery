@@ -4,20 +4,20 @@
 
 #### 1. Downloading the suspect statements
 
-Prior to designing a logic app to analyse the suspect statements we first need to get the statements into your Azure subscription. 
+Prior to designing a logic app to analyse the suspect statements we first need to upload the statements into your Azure subscription. 
 To Download the suspect statement files click here: [Suspect Statements](https://github.com/alllee/Cluedo/blob/main/LogicApp/Suspect%20Statements/SuspectStatementsZip.zip) and then click the download button.
-
-Additionally, if you just want to view all the suspect statements without downloading them you can navigate to the suspect statements folder in this repo.
 
 #### 2. Uploading the suspect statements
 
-Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements. If you already have the Microsoft Azure Storage Explorer downloaded you can then use that to upload the files to your storage account. If not, then more simply, you can upload the files through the Azure Portal.
+Once downloaded, you will need to upload the files to an Azure storage account in your subscription. There are a couple of options to upload the suspect statements.
 
 ##### Upload files via Azure Portal
 
-* Head over to your storage account resource in the Azure Portal
-* Click on the containers section. (If one does not exist. Click on the + container button at the top and add a private container called "suspectstatements")
-* Select your suspect statements container
+* Head over to your storage account resource in the Azure Portal. It should be called "mysterystorage<youralias>"
+* Click on the containers section.
+  <img width="209" alt="storage-containers" src="https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png">
+*  Click on the + container button at the top and add a private container called "suspectstatements". Select your suspect statements container
+  <img width="276" alt="name-container" src="https://user-images.githubusercontent.com/77331292/132716556-a667276b-0687-4589-b41e-cc30e5c11dc0.png">
 * Click the upload button at the top and select the files you wish to upload.
 
 ![uploadStatementsPortal](https://user-images.githubusercontent.com/73177811/114716732-3c41d000-9d2c-11eb-8204-8978deac28ad.png)
