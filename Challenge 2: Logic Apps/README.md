@@ -87,6 +87,7 @@ To ensure we can analyse the statements we first need to bring the suspect state
    <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" width="300"/>
   </p>  
   2. Click on "Show Keys"
+  
   3. Select a key and copy to clipboard
   <p align="left">
    <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" width="600"/>
