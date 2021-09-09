@@ -16,7 +16,7 @@ Once downloaded, you will need to upload the files to an Azure storage account i
 * Head over to your storage account resource in the Azure Portal. It should be called "mysterystorage<youralias>"
 * Navigate to Data Storage > Containers
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/77331292/132716136-9b445bc2-9c03-4685-a9d2-e1c95f673561.png" width="300" />
 </p>  
   
 *  Click on the + container button at the top and add a private container called "suspectstatements". Select your suspect statements container
@@ -52,7 +52,7 @@ To help people get started there are many different logic app templates which ca
 
 * Below is a screenshot from the logic app designer page prior to a flow being created. You should select the HTTP trigger which is highlighted.
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png" width="600"/>
+    <img src="https://user-images.githubusercontent.com/73177811/114719907-6fd22980-9d2f-11eb-897f-8734a449a0ed.png" width="700"/>
   </p>
   
 #### 2. Bringing suspect statements into your logic app
@@ -71,6 +71,10 @@ To ensure we can analyse the statements we first need to bring the suspect state
   </p>
 
 * You will now be prompted for an authentication key to connect to your storage where your statements are uploaded. 
+   <p align="center">
+   <img src="https://user-images.githubusercontent.com/77331292/132730852-11907bfe-60b5-4c82-ad24-86c0ce9f10e0.png" width="600"/>
+  </p>
+  
   Fill in the blanks with the details below:
   -   *Connection Name*: sotrageconnection
   -   *Authentication Type*: Access Key
@@ -78,14 +82,11 @@ To ensure we can analyse the statements we first need to bring the suspect state
   -   *Azure Storage Account Access Key*: Follow instructions below!
   
 * To get your access key 
-  1. Go to your storage account and navigate to Security + Networking > Access Keys 
+  1. In a seperate tab, go back to your storage account and navigate to Security + Networking > Access Keys 
   <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" width="200"/>
+   <img src="https://user-images.githubusercontent.com/77331292/132727858-8396f6af-8c39-46da-8e7a-70e30c699e4b.png" width="300"/>
   </p>  
   2. Click on "Show Keys"
-  <p align="left">
-   <img src="https://user-images.githubusercontent.com/77331292/132728290-dce7a20b-153a-4b87-bbc6-7098ba3f2639.png" width="100"/>
-  </p>
   3. Select a key and copy to clipboard
   <p align="left">
    <img src="https://user-images.githubusercontent.com/77331292/132728711-48b38b8b-ddd4-406f-9c34-d701921a4452.png" width="600"/>
