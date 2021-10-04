@@ -1,7 +1,7 @@
 
 
 
-# Cluedo
+# Challenge 1: Custom Vision
 
 Hello Detective! You have been given some images from the crime scene but you need a way to analyse them and identify potential murder weapons. 
 
