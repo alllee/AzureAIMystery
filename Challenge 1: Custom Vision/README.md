@@ -9,7 +9,7 @@ In this challenge, you will be building an Object Detection Model.
 -   Firstly, you will train your model using sample Training Images of the objects you wish to detect.
 -   Then, you will test your model using the Crime Scene Images. 
 
-Make note of which Weapon was detected in which Room. You will need this information later!
+Make note of which **Weapon** was detected in which **Room**. You will need this information later!
 
 Good luck!
 
