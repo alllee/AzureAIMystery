@@ -30,5 +30,5 @@ To get you started, we have put together a template containing the resources you
 When done, click review + create at the bottom of the page and then select create once the validation has passed. Finally, wait for your deployment to complete.
 
 If successful, you should be able to see a list of the 3 resources deployed within your resource group
- 
+
 **You are now ready to begin your first challenge! Click on the folder "Challenge 1: Custom Vision" to get started. **
