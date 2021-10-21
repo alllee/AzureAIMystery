@@ -15,7 +15,7 @@ People | Weapons | Places
 Mrs. White | Candlestick | Kitchen
 Mr. Green | Wrench | Conservatory
 Mrs. Peacock | Rope | Dining Room
-Professor Plum  | | Cellar
+Professor Plum  | Revolver | Cellar
 Miss Scarlet |  | Billiard Room
 Colonel Mustard |  | Library
  |  |  |  Hall
